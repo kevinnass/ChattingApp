@@ -1,11 +1,8 @@
 <p align='center'>
-  <img src='https://repository-images.githubusercontent.com/442005408/3f8d7fed-9d3f-45c8-bcd5-0fa64e9ac535' alt='Vue.js starter template' width='600'/>
+  <img src='' alt='' width='600'/>
 </p>
 
-# Vue.js starter template
-
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/lecoueyl/vue3-template)
-
+# Vue.js Chatting Group Application
 Features:
 
 - 🛠 [Vue 3](https://v3.vuejs.org/guide/introduction.html)
@@ -13,39 +10,19 @@ Features:
 - 🗂 [PNPM](https://pnpm.io)
 - 🛣 [Vue Router](https://github.com/vuejs/vue-router-next)
 - 🎨 [Tailwind CSS](https://tailwindcss.com/docs/)
-- 🔍 [Eslint with airbnb and stylelint](https://github.com/airbnb/javascript)
-- 🌗 [Light and dark mode composable](https://github.com/lecoueyl/vue3-template/blob/main/src/composables/theme.js)
-- 🔡 [Inter var font](https://rsms.me/inter/)
-- 📄 [Github pages action](https://pages.github.com)
+- 🔥 [Firebase](https://console.firebase.google.com/)
+- 💼 [Axios](https://axios-http.com/)
+- 🌐 [Surge](https://surge.sh/)
 
 ## Getting Started
-
-Scaffold this repository
-
-```sh
-pnpx degit lecoueyl/vue3-template my-project
-cd my-project
-```
-
 Install and start dev server
 
-```sh
 pnpm install
 pnpm run dev
-```
 
-## Deployment
+# Description
+<h4>
+  This app is a messaging application that can be used in a group and based on a realtime database from firebase
+</h4>
 
-### Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/lecoueyl/vue3-template)
-
-### Github pages
-
-The default github action will build to `gh-page` when pushing on `main` branch.
-
-For a project page, the base path of the repository must be specified. Add the following secret in the Github repository Settings > Secrets > Actions
-
-| Name                        | Value                    |
-| --------------------------- | ------------------------ |
-| VITE_BASE_PUBLIC_PATH       | `/repository-name/`      |
+# Url: http://chatapp-firebase.surge.sh/
