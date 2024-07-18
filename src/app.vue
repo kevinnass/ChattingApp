@@ -96,10 +96,10 @@ export default {
 			content: inputMessage.value
 		}).then(response => {
 			spinner = true;
-			console.log(spinner);
+			console.log(response.data);
 			inputMessage = "";
 		}).catch(response => {
-			console.log("error1");
+			console.log(response);
 		});	
 	}
 		
